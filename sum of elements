@@ -1,0 +1,28 @@
+for loop:
+numbers = [10, 20, 30, 40, 50]
+
+# Initialize sum variable
+sum_numbers = 0
+
+# Iterate over each element in the list using a for loop
+for num in numbers:
+    sum_numbers += num  # Add each element to sum_numbers
+
+# Print the sum of elements in the list
+print("Sum of elements (using for loop):", sum_numbers)
+
+while loop:
+# Define a list of numbers
+numbers = [10, 20, 30, 40, 50]
+
+# Initialize sum variable and index
+sum_numbers = 0
+index = 0
+
+# Iterate over each element in the list using a while loop
+while index < len(numbers):
+    sum_numbers += numbers[index]  # Add each element to sum_numbers
+    index += 1  # Move to the next element
+
+# Print the sum of elements in the list
+print("Sum of elements (using while loop):", sum_numbers)
