@@ -1,0 +1,13 @@
+EXDENDING MULTIDIMENTIONAL :
+multlist = [["Mon","Tue","Wed"], [2, 4, 9,], [1,1.5, 2]]
+multlist.append(["Phy","Chem","Math"])
+print(multlist)
+multlist[0].extend(["Thu","Fri"])
+print(multlist)
+
+ACCESSING MULTIDIMENSIONAL :
+multlist = [[1,5,9], [2, 4, 9,], [1,1, 2]]
+for i in range(len(multlist)) :
+   for j in range(len(multlist[i])) :
+      print(multlist[i][j], end=" ")
+   print()
