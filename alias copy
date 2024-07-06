@@ -1,0 +1,12 @@
+a = [1, 2, 3, 4, 5]
+b = a
+print("Original list 'a':", a)
+print("Alias list 'b':", b)
+a.append(6)
+print("\nAfter appending to 'a':")
+print("Original list 'a':", a)
+print("Alias list 'b':", b)
+a.pop(0)
+print("\nAfter popping from 'a':")
+print("Original list 'a':", a)
+print("Alias list 'b':", b)
