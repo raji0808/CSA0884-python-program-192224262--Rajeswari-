@@ -1,0 +1,18 @@
+usoing print method:
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+print("Keys:", list(my_dict.keys()))
+print("Values:", list(my_dict.values()))
+print("Keys and Values:")
+print(my_dict)
+
+using loop:
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+print("Keys and Values:")
+for key, value in my_dict.items():
+	print(f"{key}: {value}")
+
+using zip function :
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+print("Keys and Values:")
+for key, value in zip(my_dict.keys(), my_dict.values()):
+	print(f"{key}: {value}")
