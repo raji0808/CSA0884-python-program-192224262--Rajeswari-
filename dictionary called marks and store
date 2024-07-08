@@ -1,0 +1,8 @@
+marks = {
+    'Alice': {'Math': 85, 'Science': 90, 'English': 78},
+    'Bob': {'Math': 92, 'Science': 88, 'English': 84},
+    'Charlie': {'Math': 75, 'Science': 95, 'English': 80}
+}
+for student, subjects in marks.items():
+    total_marks = sum(subjects.values())
+    print(f"Total marks of {student}: {total_marks}")
